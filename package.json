@@ -1,7 +1,7 @@
 {
-  "name": "reactjs-starter",
+  "name": "trello-board",
   "version": "1.0.0",
-  "description": "ReactJS Webpack starter",
+  "description": "Trello board using ReactJS, Firebase, Webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlubovac/reactjs-starter.git"
+    "url": "git+https://github.com/mlubovac/trello-board.git"
   },
   "keywords": [
     "reactjs",
     "react-router",
     "webpack",
     "webpack-dev-server",
-    "react starter kit"
+    "firebase"
   ],
   "author": "Muharem Lubovac",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mlubovac/reactjs-starter/issues"
+    "url": "https://github.com/mlubovac/trello-board/issues"
   },
-  "homepage": "https://github.com/mlubovac/reactjs-starter#readme",
+  "homepage": "https://github.com/mlubovac/trello-board#readme",
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
