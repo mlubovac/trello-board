@@ -1,7 +1,7 @@
 var React = require('react');
 var Config = require('../config/config');
-var ListCard = require('./list-card');
-var ListCardForm = require('./list-card-form');
+var ListCard = require('./ListCard');
+var ListCardForm = require('./ListCardForm');
 
 var ListPanel = React.createClass({
     

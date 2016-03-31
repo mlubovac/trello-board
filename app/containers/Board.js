@@ -1,7 +1,7 @@
 var React = require('react');
 var Config = require('../config/config');
-var ListPanel = require('../components/list-panel');
-var ListForm = require('../components/list-form');
+var ListPanel = require('../components/ListPanel');
+var ListForm = require('../components/ListForm');
 
 var Board = React.createClass({
     

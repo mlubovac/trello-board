@@ -1,6 +1,6 @@
 var React = require('react');
-var BoardCard = require('../components/board-card');
-var BoardForm = require('../components/board-form');
+var BoardCard = require('../components/BoardCard');
+var BoardForm = require('../components/BoardForm');
 var Config = require('../config/config');
 
 var Home = React.createClass({

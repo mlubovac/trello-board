@@ -1,4 +1,4 @@
-var BASE_URL = 'https://YOUR_FIREBASE_APP_NAME.firebaseio.com/';
+var BASE_URL = 'https://trello-board.firebaseio.com/';
 
 module.exports = {
     BOARDS_URL: BASE_URL + '/boards',
