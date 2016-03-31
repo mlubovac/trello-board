@@ -15,13 +15,12 @@ var Main = React.createClass({
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <Link className="navbar-brand" to="/">ReactJS Starter</Link>
+                        <Link className="navbar-brand" to="/">Trello knock off</Link>
                     </div>
                     <div id="navbar" className="collapse navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="about">About</Link></li>
-                            <li><Link to="contact">Contact</Link></li>                        
+                            <li><Link to="/">Boards</Link></li>
+                            <li><Link to="about">About</Link></li>                       
                         </ul>
                     </div>
                 </div>

@@ -1,9 +1,36 @@
 var React = require('react');
+var BoardCard = require('../components/board-card');
+var BoardForm = require('../components/board-form');
+var Config = require('../config/config');
 
 var Home = React.createClass({
+    
+    getInitialState: function() {
+        return {
+            boards: {}
+        }    
+    },
+    
+    componentDidMount: function() {
+        this.firebase = new Firebase(Config.BOARDS_URL);
+        this.firebase.on('value', function(dataSnap) {
+            if (this.isMounted()) {
+                this.setState({boards: dataSnap.val() || {}});              
+            }
+        }.bind(this));  
+    },
+    
     render: function() {
+        
+        var cards = Object.keys(this.state.boards).map(function(key) {
+            var board = this.state.boards[key];
+            board.key = key;
+            return <BoardCard key={key} board={board} />
+        }.bind(this));
+        
         return <div className="container-fluid">
-            <h1>Home...</h1>
+            {cards}
+            <BoardForm />
         </div>;
     }    
 });

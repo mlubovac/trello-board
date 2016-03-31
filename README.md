@@ -1,27 +1,22 @@
-ReactJS Starter
+Trello board powered by ReactJS, React Router and Firebase.
 ====
 
+###Obtain Firebase Account###
+Go to http://www.firebase.com, create an account then create new app.
+
 ###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start the webpack process with the following:
 
 ```
-	> git clone https://github.com/mlubovac/reactjs-starter.git
-	> cd reactjs-starter
+	> git clone https://github.com/mlubovac/trello-board.git
+	> cd trello-board
 	> npm install
 	> npm start
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/mlubovac/reactjs-starter) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Edit ```app/components/config/config.js``` and update BASE_URL with your Firebase data URL.
 
+Open browser at
 ```
-	> npm install
-	> npm start
+    http://localhost:8080
 ```
-    
-CD to directory and run npm update
-Open browser at http://localhost:8080
