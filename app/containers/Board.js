@@ -34,7 +34,6 @@ var Board = React.createClass({
             return <ListPanel key={key} list={list} isInputMode={isInputMode} toggleIsInputMode={this.toggleIsInputMode} />
         }.bind(this));
         
-        console.log(this.state.lists)
         return <div className="container-fluid">
             {lists}
             <ListForm boardKey={this.props.params.key} />
